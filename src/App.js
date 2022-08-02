@@ -1,10 +1,12 @@
-import React, { useState, useEffect } from "react";
-import Search from "./components/Search";
+import React from "react";
+import Hero from "./components/Hero section/Hero";
+import Join from "./components/Join section/Join";
 
 export default function App() {
   return (
     <div className="App">
-      <Search />
+      <Hero />
+      <Join />
     </div>
   );
 }
