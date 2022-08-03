@@ -36,7 +36,7 @@
 
 .join-content > :nth-child(1) {
   background-color: #fff;
-  padding: 2rem 0.2rem;
+  width: 50%;
 }
 
 .join-content > :nth-child(2) {
