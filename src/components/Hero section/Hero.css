@@ -54,3 +54,32 @@
   color: var(--red);
   border: 1px solid var(--red);
 }
+
+@media (max-width: 992px) {
+  .Hero {
+    height: 600px;
+  }
+  .hero-content {
+    padding: 10% 3% 0;
+  }
+
+  .hero-header {
+    font-size: 1.6rem;
+  }
+
+  .hero-content > :nth-child(3) {
+    padding: 2rem 0;
+    font-size: 0.8rem;
+  }
+
+  .hero-btns {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .btn {
+    font-size: 1rem;
+  }
+}

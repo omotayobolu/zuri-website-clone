@@ -49,3 +49,17 @@
 .join-content > :nth-child(3) {
   color: var(--red);
 }
+
+@media (max-width: 992px) {
+  .join-header > p {
+    padding: 0;
+    margin-top: 1rem;
+    font-size: 1.2rem;
+  }
+
+  .join-contents {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+    max-width: 100%;
+  }
+}
