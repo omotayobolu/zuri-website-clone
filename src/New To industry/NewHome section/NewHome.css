@@ -1,0 +1,14 @@
+.Home {
+  margin: 5% 4%;
+}
+
+.home-contents {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+}
+
+.home-contents > :nth-child(1) {
+  width: 400px;
+}

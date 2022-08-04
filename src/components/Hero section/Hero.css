@@ -40,16 +40,17 @@
   border: none;
   font-size: 1.1rem;
   cursor: pointer;
+  text-decoration: none;
 }
 
-.hero-btns > :nth-child(1),
-.hero-btns > :nth-child(2):hover {
+.btn.new,
+.btn.experienced:hover {
   background-color: var(--red);
   color: white;
 }
 
-.hero-btns > :nth-child(2),
-.hero-btns > :nth-child(1):hover {
+.btn.experienced,
+.btn.new:hover {
   background-color: white;
   color: var(--red);
   border: 1px solid var(--red);

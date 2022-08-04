@@ -1,6 +1,7 @@
 import React from "react";
 import "./Hero.css";
 import MainLogo from "../../ZuriImg/zuri-logo-full.svg";
+import { Link } from "react-router-dom";
 
 const Hero = () => {
   return (
@@ -17,8 +18,14 @@ const Hero = () => {
           mission-critical <span className="a-link">projects and goals</span>
         </p>
         <div className="hero-btns">
-          <button className="btn">I'm new to the industry</button>
-          <button className="btn">I need industry experience</button>
+          <Link class to="New">
+            <button className="btn new">I'm new to the industry</button>
+          </Link>
+          <Link to="Experienced">
+            <button className="btn experienced">
+              I need industry experience
+            </button>
+          </Link>
         </div>
       </div>
     </div>

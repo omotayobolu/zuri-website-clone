@@ -39,3 +39,7 @@ ul {
   color: var(--red);
   cursor: pointer;
 }
+
+.new-section {
+  background-color: rgb(255, 253, 245);
+}
