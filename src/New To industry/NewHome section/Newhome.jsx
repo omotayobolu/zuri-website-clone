@@ -4,6 +4,7 @@ import Homepic1 from "../../ZuriImg/lady1.jpg";
 import Line from "../../ZuriImg/line.svg";
 import section1wire from "../../ZuriImg/section1wire.svg";
 import Male from "../../ZuriImg/male1.jpg";
+import MaleFace from "../../ZuriImg/maleface.svg";
 
 const Newhome = () => {
   return (
@@ -20,8 +21,9 @@ const Newhome = () => {
             A basic introduction to software development and product design
             aimed at complete beginners, which anyone can join
           </p>
+          <img className="male-face" src={MaleFace} alt="" />
           <button>Enroll Now</button>
-          <img src={section1wire} alt="" />
+          <img className="one-wire" src={section1wire} alt="" />
         </div>
         <img src={Male} alt="" />
       </div>

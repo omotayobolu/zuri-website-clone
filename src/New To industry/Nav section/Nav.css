@@ -1,12 +1,20 @@
 .New-nav {
-  padding: 2% 4%;
+  padding: 1% 5%;
+  position: fixed;
+  z-index: 5;
+  top: 0;
+  width: 100%;
+  background-color: rgb(255, 253, 245);
 }
 
 .nav-contents {
   display: flex;
-  justify-content: space-between;
   align-items: center;
-  position: relative;
+  gap: 7rem;
+}
+
+.nav-contents > :nth-child(1) {
+  padding-left: 0;
 }
 
 .nav-btns {
@@ -29,7 +37,7 @@
   background-color: var(--red);
   border-radius: 100px;
   margin-left: -50px;
-  padding: 10px;
+  padding: 0 10px;
   display: flex;
   align-items: center;
   justify-content: center;

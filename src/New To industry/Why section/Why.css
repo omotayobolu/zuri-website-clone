@@ -1,0 +1,34 @@
+.Why {
+  padding: 5%;
+}
+
+.why-us {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  margin-top: 4%;
+}
+
+.why-us > img {
+  position: absolute;
+  width: 200px;
+  right: 300px;
+}
+
+.why-us-l > img {
+  position: absolute;
+  top: -7rem;
+  left: 18rem;
+  width: 120px;
+}
+
+.why-us-l > p {
+  color: var(--red);
+  font-size: 1.5rem;
+}
+
+.why-us-l > h2 {
+  font-size: 2.3rem;
+  width: 50%;
+}
