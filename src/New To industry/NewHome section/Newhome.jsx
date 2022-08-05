@@ -22,7 +22,7 @@ const Newhome = () => {
             aimed at complete beginners, which anyone can join
           </p>
           <img className="male-face" src={MaleFace} alt="" />
-          <button>Enroll Now</button>
+          <button className="btn">Enroll Now</button>
           <img className="one-wire" src={section1wire} alt="" />
         </div>
         <img src={Male} alt="" />

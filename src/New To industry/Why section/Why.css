@@ -32,3 +32,51 @@
   font-size: 2.3rem;
   width: 50%;
 }
+
+.why-reasons {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+  margin-top: 5%;
+}
+
+.reason {
+  background-color: #fff;
+  box-shadow: 0 11px 22px rgb(231 51 43 / 10%);
+  padding: 60px 60px 85px 40px;
+  position: relative;
+  border-radius: 20px;
+}
+
+.reason:nth-child(1) {
+  background: var(--red);
+  color: #fff;
+}
+
+.reason:nth-child(1) > p {
+  color: #fff;
+}
+
+.reason > :nth-child(1) {
+  position: absolute;
+  width: 100px;
+  top: -2.5rem;
+  right: 0;
+}
+
+.reason > h2 {
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.reason > h1 {
+  padding: 1.5rem 0;
+  width: 60%;
+  font-size: 2rem;
+}
+
+.reason > p {
+  font-size: 1.1rem;
+  color: var(--text-color);
+  padding-right: 10px;
+}

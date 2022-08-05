@@ -1,0 +1,67 @@
+.Program {
+  padding: 5%;
+  position: relative;
+}
+
+.program-heading {
+  width: 100%;
+}
+
+.program-heading > :nth-child(1) {
+  color: var(--red);
+  font-size: 1.5rem;
+}
+
+.program-heading > :nth-child(2) {
+  font-size: 2.5rem;
+  width: 45%;
+}
+
+.program-heading > img {
+  width: 150px;
+  position: absolute;
+  left: 50%;
+  top: 18%;
+}
+
+.training-available {
+  margin-top: 5rem;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+}
+
+.programs {
+  box-shadow: 0 11px 22px rgb(231 51 43 / 10%);
+  padding: 40px;
+  border-radius: 30px;
+  background-color: #fff;
+  height: 330px;
+}
+
+.programs > p {
+  color: var(--text-color);
+  padding-top: 1rem;
+  font-size: 1.05rem;
+}
+
+.programsImages {
+  padding: 1rem 0;
+  display: flex;
+}
+
+.programsImages > * {
+  margin-right: 10px;
+  width: 65px;
+}
+
+.Program > button {
+  position: relative;
+  margin-top: 3rem;
+  padding: 15px 35px;
+  background-color: var(--red);
+  color: white;
+  font-size: 1.1rem;
+  border-radius: 30px;
+  left: 50%;
+}
