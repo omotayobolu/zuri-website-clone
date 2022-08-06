@@ -5,6 +5,8 @@ import About from "./About Section/About";
 import Why from "./Why section/Why";
 import Enroll from "./Enroll Section/Enroll";
 import Program from "./Program Section/Program";
+import Questions from "./Questions section/Questions";
+import Structure from "./Structure section/Structure";
 
 const New = () => {
   return (
@@ -15,6 +17,8 @@ const New = () => {
       <Why />
       <Enroll />
       <Program />
+      <Questions />
+      <Structure />
     </div>
   );
 };

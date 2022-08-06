@@ -1,6 +1,7 @@
 :root {
   --red: #e7332b;
   --text-color: #514949;
+  --heading-color: #1b1a20;
 }
 @font-face {
   font-family: Averta;
@@ -38,4 +39,8 @@ ul {
 
 .new-section {
   background-color: rgb(255, 253, 245);
+}
+
+button {
+  cursor: pointer;
 }

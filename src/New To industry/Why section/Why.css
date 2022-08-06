@@ -50,7 +50,6 @@
 
 .reason:nth-child(1) {
   background: var(--red);
-  color: #fff;
 }
 
 .reason:nth-child(1) > p {
@@ -62,6 +61,11 @@
   width: 100px;
   top: -2.5rem;
   right: 0;
+}
+
+.reason:nth-child(1) > h2,
+.reason:nth-child(1) > h1 {
+  color: #fff;
 }
 
 .reason > h2 {
