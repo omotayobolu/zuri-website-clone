@@ -1,7 +1,7 @@
 .New-nav {
   padding: 1% 5%;
   position: fixed;
-  z-index: 5;
+  z-index: 10;
   top: 0;
   width: 100%;
   background-color: rgb(255, 253, 245);

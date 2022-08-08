@@ -1,0 +1,30 @@
+footer {
+  margin: 5%;
+}
+
+.footer1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.socials > img {
+  margin-right: 0.5rem;
+}
+
+.footer2 {
+  margin-top: 3rem;
+  color: var(--text-color);
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.1rem;
+  font-weight: normal;
+}
+
+.last-content {
+  display: flex;
+}
+
+.last-content > :nth-child(1) {
+  margin-right: 1rem;
+}

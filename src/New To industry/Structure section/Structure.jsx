@@ -3,6 +3,8 @@ import "./Structure.css";
 import Star from "../../ZuriImg/Star1.svg";
 import Wire from "../../ZuriImg/section7wire.svg";
 import Clarity from "../../ZuriImg/clarity.svg";
+import Move from "../../ZuriImg/move.svg";
+import Circle from "../../ZuriImg/circle.png";
 
 const Structure = () => {
   return (
@@ -34,27 +36,27 @@ const Structure = () => {
             <li>Project Phase</li>
           </ul>
           <h6>Post Program:</h6>
-          <div>
+          <div className="struct">
             <ul>
               <li>Certification of Attendance</li>
-              <div className="clarity">
+              <li className="clarity">
                 <li>Zuri Internship</li>
                 <img src={Clarity} alt="" />
-              </div>
-              <div className="clarity">
+              </li>
+              <li className="clarity">
                 <li>Laptop Reward (upgrade or new one)</li>{" "}
                 <img src={Clarity} alt="" />
-              </div>
-              <div className="clarity">
+              </li>
+              <li className="clarity">
                 <li>Job Placement</li>
                 <img src={Clarity} alt="" />
-              </div>
+              </li>
 
               <li>Zuri Talent Pool</li>
-              <div className="clarity">
+              <li className="clarity">
                 <li>More Training:</li>
                 <img src={Clarity} alt="" />
-              </div>
+              </li>
             </ul>
             <div className="more-training">
               <p>Interview Prep</p>
@@ -105,6 +107,9 @@ const Structure = () => {
           </ul>
         </div>
       </div>
+      <img className="move" src={Move} alt="" />
+      <img className="circle1" src={Circle} alt="" />
+      <img className="circle2" src={Circle} alt="" />
     </section>
   );
 };

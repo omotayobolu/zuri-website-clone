@@ -7,6 +7,8 @@ import Enroll from "./Enroll Section/Enroll";
 import Program from "./Program Section/Program";
 import Questions from "./Questions section/Questions";
 import Structure from "./Structure section/Structure";
+import Started from "./Get Started section/Started";
+import Footer from "./Footer section/Footer";
 
 const New = () => {
   return (
@@ -19,6 +21,8 @@ const New = () => {
       <Program />
       <Questions />
       <Structure />
+      <Started />
+      <Footer />
     </div>
   );
 };
