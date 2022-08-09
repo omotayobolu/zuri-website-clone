@@ -6,7 +6,7 @@ import { WhyUs } from "../../Data/WhyUs";
 
 const Why = () => {
   return (
-    <section className="Why">
+    <section className="Why" id="why-us">
       <div className="why-us">
         <div className="why-us-l">
           <img src={Wire} alt="" />

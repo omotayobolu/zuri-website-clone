@@ -87,7 +87,8 @@
 @media (max-width: 768px) {
   .Enroll {
     flex-direction: column;
-    position: relative;
+    padding: 10%;
+    display: none;
   }
 
   .Enroll-l {

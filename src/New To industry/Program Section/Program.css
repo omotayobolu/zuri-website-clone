@@ -15,6 +15,7 @@
 .program-heading > :nth-child(2) {
   font-size: 2.5rem;
   width: 45%;
+  color: var(--heading-color);
 }
 
 .program-heading > img {
@@ -56,18 +57,38 @@
 }
 
 .Program > button {
-  position: relative;
   margin-top: 3rem;
   padding: 15px 35px;
   background-color: var(--red);
   color: white;
   font-size: 1.1rem;
   border-radius: 30px;
-  left: 45%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 
 @media (max-width: 768px) {
   .training-available {
     grid-template-columns: 1fr;
+    margin-top: 2rem;
+  }
+
+  .program-heading {
+    margin-top: 5rem;
+  }
+
+  .program-heading > :nth-child(1) {
+    font-size: 1.3rem;
+  }
+
+  .program-heading > :nth-child(2) {
+    width: 100%;
+    font-size: 1.7rem;
+  }
+
+  .program-heading > img {
+    position: relative;
   }
 }

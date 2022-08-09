@@ -28,6 +28,15 @@ const Questions = () => {
           </button>
         </Link>
       </div>
+      <hr
+        style={{
+          margin: 0,
+          flexShrink: 0,
+          borderWidth: "0px 0px thin",
+          borderStyle: "solid",
+          borderColor: "rgba(0, 0, 0, 0.12)",
+        }}
+      />
     </section>
   );
 };

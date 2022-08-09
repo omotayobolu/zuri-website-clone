@@ -137,6 +137,7 @@
 @media (max-width: 768px) {
   .Structure {
     padding: 2% 5%;
+    margin-top: 2rem;
   }
 
   .program-structures {
@@ -146,5 +147,35 @@
 
   .structure1 > p {
     width: 100%;
+  }
+
+  .structure-header > h3 {
+    font-size: 1.8rem;
+  }
+
+  .Structure > :nth-child(1) {
+    width: 80px;
+    left: 3rem;
+  }
+
+  .Structure > :nth-child(2) {
+    width: 50px;
+    right: 1rem;
+  }
+
+  .structure-header > p {
+    font-size: 1rem;
+    text-align: center;
+    padding: 5%;
+  }
+
+  .circle1 {
+    width: 30%;
+    bottom: 7rem;
+    right: 0;
+  }
+
+  .circle2 {
+    visibility: hidden;
   }
 }
