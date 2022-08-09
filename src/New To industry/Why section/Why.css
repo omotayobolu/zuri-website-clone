@@ -84,3 +84,27 @@
   color: var(--text-color);
   padding-right: 10px;
 }
+
+@media (max-width: 768px) {
+  .Why {
+    margin-top: 7rem;
+  }
+  .why-us > img {
+    display: none;
+  }
+
+  .why-us-l > h2 {
+    width: 100%;
+    font-size: 1.5rem;
+  }
+
+  .why-us-l > img {
+    left: 12rem;
+    width: 70px;
+    top: -4rem;
+  }
+
+  .why-reasons {
+    grid-template-columns: 1fr;
+  }
+}

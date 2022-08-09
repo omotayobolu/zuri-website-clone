@@ -73,10 +73,6 @@
   background-position: right 20px bottom 50px;
 }
 
-.structure2 {
-  width: 700px;
-}
-
 .structure1 > p {
   width: 90%;
 }
@@ -136,4 +132,19 @@
   width: 12%;
   margin-top: 7rem;
   margin-left: -3%;
+}
+
+@media (max-width: 768px) {
+  .Structure {
+    padding: 2% 5%;
+  }
+
+  .program-structures {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .structure1 > p {
+    width: 100%;
+  }
 }

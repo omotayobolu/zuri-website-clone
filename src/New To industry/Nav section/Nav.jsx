@@ -14,9 +14,11 @@ const Nav = () => {
           <li>Stacks Covered</li>
           <li>FAQs</li>
         </ul>
-        <button className="thumbs">
+        <button className="enroll-now">
           <img src={Thumbs} alt="" />
-          <p>Enroll Now</p>
+          <div className="thumbs">
+            <p>Enroll Now</p>
+          </div>
         </button>
       </div>
     </nav>

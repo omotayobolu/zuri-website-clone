@@ -25,7 +25,7 @@ const Newhome = () => {
           <button className="btn">Enroll Now</button>
           <img className="one-wire" src={section1wire} alt="" />
         </div>
-        <img src={Male} alt="" />
+        <img className="male-pic" src={Male} alt="" />
       </div>
     </section>
   );

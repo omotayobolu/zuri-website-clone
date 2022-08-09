@@ -10,7 +10,7 @@
 .nav-contents {
   display: flex;
   align-items: center;
-  gap: 7rem;
+  justify-content: space-between;
 }
 
 .nav-contents > :nth-child(1) {
@@ -19,30 +19,63 @@
 
 .nav-btns {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
+  margin-left: 8rem;
 }
 
 .nav-btns > li {
   margin: 0 15px;
   color: var(--text-color);
-  font-size: 1.3rem;
+  font-size: 1.2rem;
   opacity: 0.9;
   font-weight: lighter;
 }
-
-.thumbs {
-  color: white;
-  font-size: 1.3rem;
-  background-color: var(--red);
-  border-radius: 100px;
-  margin-left: -50px;
-  padding: 0 10px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+.nav-btns > li:nth-child(4) {
+  margin-right: 0;
 }
 
-.thumbs > img {
-  width: 55px;
+.enroll-now {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  background-color: #fff;
+}
+
+.enroll-now > img {
+  width: 20%;
+  padding: 10px;
+  background-color: var(--red);
+  border-radius: 50px;
+}
+
+.thumbs {
+  background-color: var(--red);
+  color: #fff;
+  padding: 10px 20px;
+  margin-left: -10px;
+  border-bottom-right-radius: 20px;
+  border-top-right-radius: 20px;
+  border: none;
+}
+
+.thumbs p {
+  font-size: 1.1rem;
+  letter-spacing: 1px;
+}
+
+@media (max-width: 768px) {
+  .New-nav {
+    padding: 3% 5%;
+  }
+  .nav-btns {
+    display: none;
+  }
+
+  .nav-contents > :nth-child(1) {
+    width: 150px;
+  }
+  .enroll-now > img {
+    width: 70px;
+  }
 }

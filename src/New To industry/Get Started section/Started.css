@@ -42,6 +42,7 @@
   position: absolute;
   right: 0;
   top: 0;
+  width: 11%;
 }
 
 .curve {
@@ -49,6 +50,7 @@
   left: 0;
   bottom: 0;
   transform: rotate(180deg);
+  width: 10%;
 }
 
 .mains {
@@ -56,4 +58,12 @@
   width: 12%;
   bottom: 0;
   right: 0;
+}
+
+@media (max-width: 768px) {
+  .get-started > h1 {
+    width: 100%;
+    font-size: 2rem;
+    padding: 5% 20%;
+  }
 }

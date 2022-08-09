@@ -83,3 +83,35 @@
 .Enroll-r > img {
   width: 600px;
 }
+
+@media (max-width: 768px) {
+  .Enroll {
+    flex-direction: column;
+    position: relative;
+  }
+
+  .Enroll-l {
+    padding: 0 20%;
+  }
+
+  .Enroll-l h2 {
+    font-size: 2rem;
+  }
+
+  .enroll-bonus > p {
+    font-size: 0.9rem;
+  }
+  .Enroll-r > img {
+    max-width: 100%;
+  }
+
+  .Enroll-l > :nth-child(4) {
+    width: 100%;
+    font-size: 1.2rem;
+  }
+  .dot-image {
+    left: 5%;
+    bottom: 0;
+    width: 50px;
+  }
+}

@@ -31,6 +31,7 @@
 .home-text > :nth-child(2) {
   font-size: 2.8rem;
   font-weight: bolder;
+  color: var(--heading-color);
 }
 
 .home-text > :nth-child(3) {
@@ -68,4 +69,45 @@
   left: 310px;
   top: 400px;
   height: 100px;
+}
+
+@media (max-width: 768px) {
+  .home-contents {
+    flex-direction: column;
+  }
+
+  .home-contents > :nth-child(1) {
+    margin-top: 5rem;
+    max-width: 100%;
+  }
+
+  .home-text > :nth-child(2) {
+    font-size: 2rem;
+    font-weight: bolder;
+  }
+
+  .home-text > :nth-child(3) {
+    top: 160px;
+    left: 220px;
+    width: 110px;
+  }
+
+  .home-text > :nth-child(4) {
+    padding: 2rem 0;
+    font-size: 1rem;
+  }
+
+  .male-pic {
+    display: none;
+  }
+
+  .male-face {
+    display: none;
+  }
+
+  .one-wire {
+    left: 250px;
+    top: 350px;
+    width: 50px;
+  }
 }

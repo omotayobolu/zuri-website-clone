@@ -1,21 +1,18 @@
-// import Curve1 from "../ZuriImg/curve1.png";
+import Curve1 from "../ZuriImg/curve1.png";
 
 export const WhyUs = [
   {
     id: "01",
     image: (
-      <svg
-        width="183"
-        height="178"
-        viewBox="0 0 183 178"
-        fill="none"
-        xmlns="http://www.w3.org/2000/svg"
-      >
-        <path
-          d="M61.3814 0.28125H0.648438C0.649414 140.046 122.278 177.432 182.151 177.432V115.83C84.1434 116.665 60.8015 39.1454 61.3814 0.28125Z"
-          fill="#FEC649"
-        />
-      </svg>
+      <img
+        src={Curve1}
+        alt=""
+        style={{
+          position: "absolute",
+          right: 0,
+          top: 0,
+        }}
+      />
     ),
     heading: "Fully Remote",
     description: "100% online classes available to anyone in the world.",
