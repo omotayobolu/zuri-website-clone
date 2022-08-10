@@ -1,0 +1,22 @@
+.skills {
+  padding: 5rem 7%;
+}
+
+.skills h1 {
+  font-size: 2.5rem;
+  width: 40%;
+}
+
+.skills ul {
+  margin: 2rem 0;
+  display: flex;
+}
+
+.skills li {
+  color: var(--talent-p-color);
+  margin-right: 1.5rem;
+  padding: 15px;
+  background-color: #fff;
+  box-shadow: 0 8px 30px hsla(0, 0%, 48%, 0.16);
+  border-radius: 10px;
+}

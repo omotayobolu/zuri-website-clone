@@ -1,0 +1,42 @@
+nav {
+  padding: 1% 7%;
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  width: 100%;
+  z-index: 10;
+  background-color: #fff;
+}
+
+.nav-items {
+  display: flex;
+  align-items: center;
+}
+
+.nav-items > * {
+  margin: 0 2rem;
+  color: var(--talent-p-color);
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.nav-items > button {
+  color: #fff;
+  background-color: var(--red);
+  border-bottom-right-radius: 15px;
+  padding: 12px 35px;
+  letter-spacing: 1px;
+}
+
+@media (max-width: 768px) {
+  nav {
+    padding: 1% 4%;
+  }
+  .nav-items > *:not(button) {
+    display: none;
+  }
+
+  .nav-items > button {
+    margin-right: 0;
+  }
+}

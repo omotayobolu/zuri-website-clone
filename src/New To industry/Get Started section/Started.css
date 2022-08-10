@@ -66,4 +66,16 @@
     font-size: 2rem;
     padding: 5% 20%;
   }
+
+  .bend {
+    width: 20%;
+  }
+
+  .curve {
+    width: 20%;
+  }
+
+  .round {
+    left: 2rem;
+  }
 }

@@ -1,0 +1,44 @@
+.impact {
+  padding: 7rem 7%;
+  background-image: url(../../ZuriImg/bgsection2.063bd869082548bafa74.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.impact-l h1 {
+  font-size: 2.7rem;
+}
+
+.impact-l h5 {
+  margin: 0.7rem 0;
+  font-size: 1.2rem;
+}
+
+.impact-l p {
+  color: var(--talent-p-color);
+  font-size: 1.2rem;
+}
+
+.countries {
+  display: flex;
+  align-items: center;
+  margin-top: 1.5rem;
+}
+
+.country {
+  width: 55px;
+  margin-right: 2rem;
+}
+
+.impact-r > img {
+  width: 70%;
+  float: right;
+}
+
+@media (max-width: 768px) {
+  .impact {
+    grid-template-columns: 1fr;
+  }
+}

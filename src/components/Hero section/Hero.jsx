@@ -21,7 +21,7 @@ const Hero = () => {
           <Link class to="New">
             <button className="btn new">I'm new to the industry</button>
           </Link>
-          <Link to="Experienced">
+          <Link to="Talent">
             <button className="btn experienced">
               I need industry experience
             </button>
