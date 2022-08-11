@@ -1,4 +1,5 @@
 import React from "react";
+import ExpFooter from "./Experience Footer/ExpFooter";
 import Impact from "./Impact/Impact";
 import Skills from "./Skills/Skills";
 import TalentHome from "./Talent Home/TalentHome";
@@ -13,6 +14,7 @@ const Talent = () => {
       <Impact />
       <Skills />
       <TalentWhy />
+      <ExpFooter />
     </div>
   );
 };

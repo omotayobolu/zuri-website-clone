@@ -30,13 +30,15 @@ nav {
 
 @media (max-width: 768px) {
   nav {
-    padding: 1% 4%;
+    padding: 2% 4%;
   }
+
   .nav-items > *:not(button) {
     display: none;
   }
 
   .nav-items > button {
     margin-right: 0;
+    padding: 10px 25px;
   }
 }

@@ -41,4 +41,22 @@
   .impact {
     grid-template-columns: 1fr;
   }
+
+  .impact-l h1 {
+    font-size: 2rem;
+  }
+
+  .impact-r > img {
+    text-align: center;
+    width: 100%;
+    margin-top: 5rem;
+  }
+
+  .countries {
+    margin-top: 2rem;
+  }
+
+  .country {
+    margin-right: 1rem;
+  }
 }

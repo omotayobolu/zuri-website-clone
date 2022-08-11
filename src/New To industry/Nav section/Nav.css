@@ -76,8 +76,9 @@
   .nav-contents > :nth-child(1) {
     width: 150px;
   }
+
   .enroll-now > img {
-    display: none;
+    visibility: hidden;
   }
 
   .thumbs {

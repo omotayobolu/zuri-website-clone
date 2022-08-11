@@ -56,6 +56,10 @@
   width: 65px;
 }
 
+.programsImages > *:not(4) {
+  margin-right: 0;
+}
+
 .Program > button {
   margin-top: 3rem;
   padding: 15px 35px;
